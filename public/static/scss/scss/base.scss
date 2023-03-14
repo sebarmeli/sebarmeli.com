@@ -31,7 +31,8 @@ a {
   }
 }
 
-p { text-color: #fff;}
+p {color: #fff;}
+.theme-light p {color:#0b0b13}
 
 mark {
   background-image: linear-gradient($px-theme, $px-theme);
