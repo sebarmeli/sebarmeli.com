@@ -21,6 +21,8 @@ img {
   max-width: 100%;
 }
 
+p {color: #fff;}
+
 * {
   outline: none !important;
 }
