@@ -16,7 +16,7 @@ const About = () => {
         <div className="row full-screen align-items-center">
             <div className="col-lg-6">
               <div className="hb-img">
-                <Image width="400" height="565" src="/static/img/about-me.jpg" title="Seb's talk" alt="Seb's talk" />
+                <Image width="400" height="392" src="/static/img/about-me.jpg" title="Seb's talk" alt="Seb's talk" />
               </div>
             </div>
             <div className="col-lg-6">

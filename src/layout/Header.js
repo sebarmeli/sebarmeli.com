@@ -1,6 +1,10 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Fragment, useEffect, useState } from "react";
 import { activeSection } from "../utilits";
+import { faChalkboard, faBuilding, faPersonChalkboard, faPen, faAddressBook } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 const Header = ({ blog }) => {
   const [sideBarToggle, setSideBarToggle] = useState(false);
   useEffect(() => {
@@ -12,7 +16,7 @@ const Header = ({ blog }) => {
         <div className="d-flex">
           <div className="navbar-brand">
             <Link href="/" className="logo-text">
-              Sebastiano a
+              Sebastiano
             </Link>
           </div>
           <button
@@ -33,7 +37,9 @@ const Header = ({ blog }) => {
           <div className="hl-top">
             <div className="hl-logo">
               <div className="img">
-                <img src="static/img/about-me.jpg" title="Seb's profile pic" alt="Seb's photo" />
+                <Link href="/">
+                  <Image width="120" height="120" src="/static/img/about-me.jpg" title="eb's profile pic" alt="Seb's phot" />
+                </Link>
               </div>
               <h5>Sebastiano Armeli</h5>
             </div>
@@ -53,31 +59,31 @@ const Header = ({ blog }) => {
           </li>
           <li data-menuanchor="mentoring">
             <a className="nav-link" href="#mentoring">
-              <i className="ti-panel" />
+              <FontAwesomeIcon icon={faChalkboard} />
               <span>Mentoring</span>
             </a>
           </li>
           <li data-menuanchor="writing" className="blog">
             <a className="nav-link" href="#writing">
-              <i className="ti-layout-media-overlay-alt-2" />
+            <FontAwesomeIcon icon={faPen} />
               <span>Writing</span>
             </a>
           </li>
           <li data-menuanchor="speaking">
             <a className="nav-link" href="#speaking">
-              <i className="ti-bookmark-alt" />
+              <FontAwesomeIcon icon={faPersonChalkboard} />
               <span>Speaking</span>
             </a>
           </li>
           <li data-menuanchor="startups">
             <a className="nav-link" href="#startups">
-              <i className="ti-bookmark-alt" />
+              <FontAwesomeIcon icon={faBuilding} />
               <span>Startups</span>
             </a>
           </li>
           <li data-menuanchor="contact">
             <a className="nav-link" href="#contact">
-              <i className="ti-map-alt" />
+              <FontAwesomeIcon icon={faAddressBook} />
               <span>Contact Me</span>
             </a>
           </li>
