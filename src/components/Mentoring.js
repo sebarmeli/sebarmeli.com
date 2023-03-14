@@ -29,7 +29,7 @@ const Mentoring = () => {
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
                  <h5>PlatoHQ</h5>
-                  I did over 50 mentoring calls with average rating 10.0 / 10 and I'm available for the PlatoHQ mentee network.
+                  I did over 50 mentoring calls with average rating 10.0 / 10 and I am available for the PlatoHQ mentee network.
                 </div>
               </div>
             </div>
