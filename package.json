@@ -1,0 +1,26 @@
+{
+  "name": "sebastiano-armeli-personal-website",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "sass": "node-sass --watch public/static/scss/style.scss public/assets/css/style.css --source-map public/static/css/style.css.map",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "next": "^13",
+    "node-sass": "^7",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-tsparticles": "^2",
+    "tsparticles": "^2"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "^12"
+  }
+}
