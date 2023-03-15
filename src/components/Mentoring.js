@@ -30,7 +30,7 @@ const Mentoring = () => {
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
                  <h5>PlatoHQ</h5>
-                  I did over 50 mentoring calls with average rating 10.0 / 10 and I am available for the PlatoHQ mentee network.
+                  <p>I did over 50 mentoring calls with average rating 10.0 / 10 and I am available for the PlatoHQ mentee network.</p>
                 </div>
               </div>
             </div>
@@ -47,7 +47,7 @@ const Mentoring = () => {
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
                   <h5>MentorCruise</h5>
-                  I offer focused and continuous mentoring sessions to anyone on MentorCruise.
+                  <p>I offer focused and continuous mentoring sessions to anyone on MentorCruise.</p>
                 </div>
               </div>
             </div>
@@ -62,7 +62,7 @@ const Mentoring = () => {
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
                   <h5>Fast Track First Round</h5>
-                  I joined the First Round Fast Track mentor network in 2023.
+                  <p>I joined the First Round Fast Track mentor network in 2023.</p>
                 </div>
               </div>
             </div>

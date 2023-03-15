@@ -17,8 +17,8 @@ body {
 img {
   max-width: 100%; }
 
-  p {color: #fff;}
-  .theme-light p {color:#0b0b13}
+  p , h2, span {color: #fff;}
+  .theme-light p,  .theme-light h2, .theme-light span {color:#0b0b13}
 
 * {
   outline: none !important; }

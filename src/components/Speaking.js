@@ -21,7 +21,7 @@ const Speaking = () => {
                 </Link>
               </div>
               <div className="blog-info">
-                <div className="meta">11/30/2022 - Web Directions Code Leaders - Sydney </div>
+                <span className="meta">11/30/2022 - Web Directions Code Leaders - Sydney </span>
                 <h6>
                   <Link href="https://conffab.com/video/from-mission-to-strategy-going-over-roadmap-and-okrs/">
                       From Mission to Strategy: going over OKRs and Roadmap
@@ -38,7 +38,7 @@ const Speaking = () => {
                 </Link>
               </div>
               <div className="blog-info">
-                <div className="meta">06/09/2016 - Better Software West - Las Vegas</div>
+                <span className="meta">06/09/2016 - Better Software West - Las Vegas</span>
                 <h6>
                   <Link href="https://speakerdeck.com/sebarmeli/managing-a-software-engineering-team">
                       Managing a Software Engineering Team
@@ -55,7 +55,7 @@ const Speaking = () => {
                 </Link>
               </div>
               <div className="blog-info">
-                <div className="meta">05/14/2015 - JSConf BD - Hungary</div>
+                <span className="meta">05/14/2015 - JSConf BD - Hungary</span>
                 <h6>
                   <Link href="https://www.youtube.com/watch?v=SQ7xzpOjA6o">
                       Enforcing Coding Standards in a JS Project
@@ -72,7 +72,7 @@ const Speaking = () => {
                 </Link>
               </div>
               <div className="blog-info">
-                <div className="meta">05/09/2014 - JsIst - Turkey</div>
+                <span className="meta">05/09/2014 - JsIst - Turkey</span>
                 <h6>
                   <Link href="https://vimeo.com/111677402">
                       ES6: The future is now
