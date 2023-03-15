@@ -22,17 +22,17 @@ const About = () => {
             <div className="col-lg-6">
               <div className="type-box">
                 <p className="desc">
-                  I am engineering manager &amp; leader who has led teams in domains ranging from shopping and crypto to messaging, video creation, and ads at companies like Pinterest <FontAwesomeIcon icon={faPinterest} />, Paypal <FontAwesomeIcon icon={faPaypal} />, Snap <FontAwesomeIcon icon={faSnapchat} />, and Spotify <FontAwesomeIcon icon={faSpotify} />..
+                  I am engineering manager &amp; leader who has led teams in domains ranging from shopping and crypto to messaging, video creation, and ads at companies like <a href="https://www.pinterest.com" title= "Pinterest">Pinterest</a>, <a href="https://www.paypal.com" title= "Paypal">Paypal</a>, <a href="https://www.snapchat.com" title= "Snapchat">Snapchat</a>, and  <a href="https://www.spotify.com" title= "Spotify">Spotify</a>.
                   <br/><br/>
-                  Throughout my career, I havedemonstrated a solid ability to manage large teams, prioritize initiatives, and drive technical excellence.
+                  Throughout my career, I have demonstrated a solid ability to manage large teams, prioritize initiatives, and drive technical excellence.
                   <br/><br/>
-                  I enjoy mentoring engineering managers and engineers whether they are looking to develop their leadership skills, transition to management, or navigate complexities.
+                  I enjoy <a href="https://mentorcruise.com/mentor/sebastianoarmeli/" title= "Mentorcruise profile">mentoring</a> engineering managers and engineers whether they are looking to develop their leadership skills, transition to management, or navigate complexities.
                   <br/><br/>
-                  I enjoy writing and speaking about engineering management and leadership.
+                  I enjoy <a href="https://medium.com/@sebarmeli" title= "Medium profile">writing</a> and <a href="https://speakerdeck.com/sebarmelispeaking  " title= "Speakerdeck profile">speaking</a> about engineering management and leadership.
                   <br/><br/>
-                  I like talking to startups about new ideas and possibly advise and/or invest in them.
+                  I like talking to startups about new ideas and possibly advise or invest in them.
                   <br/><br/>
-                  I am very passionate about wellness and I am a big believer of using food as a medicine. With this mission in mind,I serve as a member of the Board of Directors of the Co-opportunity Market in Santa Monica,CA.
+                  I am very passionate about wellness and I am a big believer of using food as a medicine. With this mission in mind, I serve as a member of the Board of Directors of the <a href="https://coopportunity.com/#" title= "Co-opportunity Market">Co-opportunity Market</a> in Santa Monica,CA.
                   <br/><br/>
                 </p>
               </div>

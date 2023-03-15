@@ -7,7 +7,9 @@ import Contact from "../src/components/Contact";
 import Mentoring from "../src/components/Mentoring";
 import ParticlesBackground from "../src/components/ParticlesBackground";
 import Layout from "../src/layout/Layout";
-import { faPinterest, faSpotify, faSnapchat, faPaypal, faMedium } from '@fortawesome/free-brands-svg-icons'
+
+import { faPinterest, faSpotify, faSnapchat, faPaypal, faMedium} from '@fortawesome/free-brands-svg-icons'
+import { faChalkboard, faPersonChalkboard, faPen } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Index = () => {
@@ -43,11 +45,11 @@ const Index = () => {
                   <p className="desc">
                    I am an experienced engineering leader who has led multiple teams at big tech companies like Pinterest <FontAwesomeIcon icon={faPinterest} />, Paypal <FontAwesomeIcon icon={faPaypal} />, Snap <FontAwesomeIcon icon={faSnapchat} />, and Spotify <FontAwesomeIcon icon={faSpotify} />.
                   <br/><br/>
-                   I enjoy mentoring engineering managers and engineers looking to take their skills and careers to the next level. 
+                   I enjoy mentoring <FontAwesomeIcon icon={faChalkboard} /> engineering managers and engineers looking to take their skills and careers to the next level. 
                   <br/><br/>
-                   I also enjoy speaking at tech conferences and sometimes writing blog posts on Medium <FontAwesomeIcon icon={faMedium} />. 
+                   I also enjoy speaking <FontAwesomeIcon icon={faPersonChalkboard} /> at tech conferences and sometimes writing <FontAwesomeIcon icon={faPen} /> blog posts on Medium <FontAwesomeIcon icon={faMedium} />. 
                   <br/><br/>
-                   In addition to my work with individuals, I enjoy chatting with startup founders (in SaaS / health tech / social domains) and possibly advice them and/or angel invest.
+                   In addition to my work with individuals, I enjoy chatting with startup founders (in the HR, Health Tech, Consumer and Generative AI space) and possibly advice them and/or angel invest.
                   </p>
                 </div>
               </div>

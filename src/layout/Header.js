@@ -2,7 +2,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { Fragment, useEffect, useState } from "react";
 import { activeSection } from "../utilits";
-import { faChalkboard, faBuilding, faPersonChalkboard, faPen, faAddressBook } from '@fortawesome/free-solid-svg-icons'
+import { faChalkboard, faBuilding, faPersonChalkboard, faPen, faAddressBook, faHouse } from '@fortawesome/free-solid-svg-icons'
+import { faIdBadge } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Header = ({ blog }) => {
@@ -47,13 +48,13 @@ const Header = ({ blog }) => {
           <ul className="nav nav-menu" id="pp-menu">
           <li data-menuanchor="home" className="active">
             <a className="nav-link" href="#home">
-              <i className="ti-home" />
+              <FontAwesomeIcon icon={faHouse} />
               <span>Home</span>
             </a>
           </li>
           <li data-menuanchor="about">
             <a className="nav-link" href="#about">
-              <i className="ti-id-badge" />
+              <FontAwesomeIcon icon={faIdBadge} />
               <span>About Me</span>
             </a>
           </li>

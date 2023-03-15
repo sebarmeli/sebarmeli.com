@@ -18,6 +18,7 @@ img {
   max-width: 100%; }
 
   p {color: #fff;}
+  .theme-light p {color:#0b0b13}
 
 * {
   outline: none !important; }
