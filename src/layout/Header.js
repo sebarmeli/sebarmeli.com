@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Fragment, useEffect, useState } from "react";
 import { activeSection } from "../utilits";
 import { faChalkboard, faBuilding, faPersonChalkboard, faPen, faAddressBook, faHouse } from '@fortawesome/free-solid-svg-icons'
+import { faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faIdBadge } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -21,6 +22,7 @@ const Header = ({ blog }) => {
             </Link>
           </div>
           <button
+            aria-label="Sidebar toggle button"
             className={`toggler-menu ${sideBarToggle ? "open" : ""}`}
             onClick={() => setSideBarToggle(!sideBarToggle)} >
             <span />
@@ -39,7 +41,7 @@ const Header = ({ blog }) => {
             <div className="hl-logo">
               <div className="img">
                 <Link href="/">
-                  <Image width="120" height="120" src="/static/img/about-me.jpg" title="eb's profile pic" alt="Seb's phot" />
+                  <Image width="90" height="90" src="/static/img/about-me.jpg" title="Seb's profile pic" alt="Seb's photo" />
                 </Link>
               </div>
               <h5>Sebastiano Armeli</h5>
@@ -91,11 +93,11 @@ const Header = ({ blog }) => {
         </ul>
         </div>
         <div className="nav justify-content-center social-icons">
-          <a href="https://twitter.com/sebarmeli">
-            <i className="fab fa-twitter" />
+          <a href="https://twitter.com/sebarmeli" aria-label="Twitter">
+           <FontAwesomeIcon icon={faTwitter} />
           </a>
-          <a href="https://www.linkedin.com/in/sebastianoarmeli/">
-            <i className="fab fa-linkedin-in" />
+          <a href="https://www.linkedin.com/in/sebastianoarmeli/" aria-label="Linkedin">
+            <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </div>
       </header>

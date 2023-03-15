@@ -31,8 +31,8 @@ a {
   }
 }
 
-p , h2, span {color: #fff;}
-.theme-light p,  .theme-light h2, .theme-light span {color:#0b0b13}
+p , h2, span, h5 {color: #fff;}
+.theme-light p,  .theme-light h2, .theme-light span, .theme-light h5 {color:#0b0b13}
 
 mark {
   background-image: linear-gradient($px-theme, $px-theme);

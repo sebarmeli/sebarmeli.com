@@ -1,6 +1,4 @@
 import Image from "next/image";
-import { faPinterest, faSpotify, faSnapchat, faPaypal } from '@fortawesome/free-brands-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const About = () => {
   return (
