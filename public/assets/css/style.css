@@ -17,8 +17,8 @@ body {
 img {
   max-width: 100%; }
 
-  p , h2, span {color: #fff;}
-  .theme-light p,  .theme-light h2, .theme-light span {color:#0b0b13}
+  p , h2, span, h5, h6 {color: #fff;}
+  .theme-light p,  .theme-light h2, .theme-light span, .theme-light h5, .theme-light h6 {color:#0b0b13}
 
 * {
   outline: none !important; }
@@ -179,8 +179,6 @@ mark {
       height: 350px;
       background: #2fbf71; }
     .header-left .hl-top .img {
-      width: 120px;
-      height: 120px;
       overflow: hidden;
       display: inline-block;
       vertical-align: top;
