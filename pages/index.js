@@ -55,7 +55,7 @@ const Index = () => {
               </div>
               <div className="col-lg-6">
                 <div className="hb-img">
-                  <Image width="400" height="565" src="/static/img/about-my-talk.jpg" title="Seb's talk" alt="Seb's talk" />
+                  <Image width="400" height="565" src="/static/img/about-my-talk.webp" title="Seb's talk" alt="Seb's talk" />
                 </div>
               </div>
             </div>

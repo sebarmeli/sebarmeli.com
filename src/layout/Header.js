@@ -41,7 +41,7 @@ const Header = ({ blog }) => {
             <div className="hl-logo">
               <div className="img">
                 <Link href="/">
-                  <Image width="90" height="90" src="/static/img/about-me.jpg" title="Seb's profile pic" alt="Seb's photo" />
+                  <Image width="90" height="90" src="/static/img/about-me.webp" title="Seb's profile pic" alt="Seb's photo" />
                 </Link>
               </div>
               <h5>Sebastiano Armeli</h5>

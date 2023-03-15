@@ -56,7 +56,7 @@ const Mentoring = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <Link href="https://fasttrack.firstround.com/for-mentors">
-                  <Image width="92" height="92" src="/static/img/fast-track-header.png" title="FastTrack logo" alt="FastTrack logo" />
+                  <Image width="92" height="92" src="/static/img/fast-track-header.webp" title="FastTrack logo" alt="FastTrack logo" />
                 </Link>
               </div>
               <div className="col-sm-9 col-md-9 col-xl-10">
