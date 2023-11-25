@@ -20,7 +20,8 @@ const About = () => {
             <div className="col-lg-6">
               <div className="type-box">
                 <p className="desc">
-                  I am engineering manager &amp; leader who has led teams in domains ranging from shopping and crypto to messaging, video creation, and ads at companies like <a href="https://www.pinterest.com" title= "Pinterest">Pinterest</a>, <a href="https://www.paypal.com" title= "Paypal">Paypal</a>, <a href="https://www.snapchat.com" title= "Snapchat">Snapchat</a>, and  <a href="https://www.spotify.com" title= "Spotify">Spotify</a>.
+                  I am an engineering leader currently at <a href="https://www.upwork.com" title= "Upwork">Upwork</a> where I work as a Director of Engineering leading the Mobile apps and Messagging org.
+                  <br/> I have led teams in domains ranging from shopping and crypto to messaging, video creation, and ads at companies like <a href="https://www.pinterest.com" title= "Pinterest">Pinterest</a>, <a href="https://www.paypal.com" title= "Paypal">Paypal</a>, <a href="https://www.snapchat.com" title= "Snapchat">Snapchat</a>, and  <a href="https://www.spotify.com" title= "Spotify">Spotify</a>.
                   <br/><br/>
                   Throughout my career, I have demonstrated a solid ability to manage large teams, prioritize initiatives, and drive technical excellence.
                   <br/><br/>

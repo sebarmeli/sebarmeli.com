@@ -22,23 +22,6 @@ const Mentoring = () => {
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
-                  <Link href="https://www.platohq.com/mentors/Sebastiano-Armeli-7bda0">
-                    <Image width="128" height="34" src="/static/img/plato-header.webp" title="PlatoHQ logo" alt="PlatoHQ logo" />
-                  </Link>
-                </div>
-              </div>
-              <div className="col-sm-9 col-md-9 col-xl-10">
-                <div className="rb-right">
-                 <h5>PlatoHQ</h5>
-                  <p>I did over 50 mentoring calls with average rating 10.0 / 10 and I am available for the PlatoHQ mentee network.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="resume-row">
-            <div className="row">
-              <div className="col-sm-3 col-md-3 col-xl-2">
-                <div className="rb-left">
                   <Link href="https://mentorcruise.com/mentor/sebastianoarmeli/">
                     <Image width="90" height="90" src="/static/img/mentor-cruise-header.webp" title="MentorCruise logo" alt="MentorCruise logo" />
                   </Link>
@@ -47,7 +30,7 @@ const Mentoring = () => {
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
                   <h5>MentorCruise</h5>
-                  <p>I offer focused and continuous mentoring sessions to anyone on MentorCruise.</p>
+                  <p>I offer mentoring sessions to engineers and engineering managers through the <a href="https://mentorcruise.com/mentor/sebastianoarmeli/" title= "Mentorcruise profile">Mentorcruise</a> platform.</p>
                 </div>
               </div>
             </div>
@@ -55,14 +38,16 @@ const Mentoring = () => {
           <div className="resume-row">
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
-                <Link href="https://fasttrack.firstround.com/for-mentors">
-                  <Image width="92" height="92" src="/static/img/fast-track-header.webp" title="FastTrack logo" alt="FastTrack logo" />
-                </Link>
+                <div className="rb-left">
+                  <Link href="https://www.platohq.com/mentors/Sebastiano-Armeli-7bda0">
+                    <Image width="128" height="34" src="/static/img/plato-header.webp" title="PlatoHQ logo" alt="PlatoHQ logo" />
+                  </Link>
+                </div>
               </div>
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
-                  <h5>Fast Track First Round</h5>
-                  <p>I joined the First Round Fast Track mentor network in 2023.</p>
+                 <h5>PlatoHQ</h5>
+                  <p>I did over 50 mentoring calls with average rating 10 / 10 in the last few years and I am available for the PlatoHQ mentee network.</p>
                 </div>
               </div>
             </div>

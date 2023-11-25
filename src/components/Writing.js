@@ -14,23 +14,74 @@ const Writing = () => {
         </div>
         <div className="row">
           <div className="col-md-6 m-15px-tb">
-            <div className="blog-grid">
-              <div className="blog-img">
-                <Link href="https://medium.com/@sebarmeli/unlock-your-teams-full-potential-with-okrs-e07ddf23e726">
-                  <Image width="304" height="150" src="/static/img/okr-blog.webp" title="OKR blog post" alt="OKR blog post" />
-                </Link>
-              </div>
-              <div className="blog-info">
-                <span className="meta">02/21/2023 - MEDIUM</span>
-                <h5>
-                  <Link href="https://medium.com/@sebarmeli/unlock-your-teams-full-potential-with-okrs-e07ddf23e726">
-                     Unlock Your Team’s Full Potential with OKRs!
+              <div className="blog-grid">
+                <div className="blog-img">
+                  <Link href="https://medium.com/@sebarmeli/applying-socratic-wisdom-to-engineering-management-f134ab7ed747">
+                    <Image width="304" height="150" src="/static/img/socrates-blog.webp" title="Socreates blog post" alt="Socreates blog post" />
                   </Link>
-                </h5>
+                </div>
+                <div className="blog-info">
+                  <span className="meta">11/08/2023 - MEDIUM</span>
+                  <h5>
+                    <Link href="https://medium.com/@sebarmeli/applying-socratic-wisdom-to-engineering-management-f134ab7ed747">
+                    Applying Socratic Wisdom to Engineering Management
+                    </Link>
+                  </h5>
+                </div>
               </div>
             </div>
-          </div>
-          <div className="col-md-6 m-15px-tb">
+            <div className="col-md-6 m-15px-tb">
+              <div className="blog-grid">
+                <div className="blog-img">
+                  <Link href="https://medium.com/better-programming/effective-staff-meetings-for-engineering-managers-of-managers-7cc8278d89ec">
+                    <Image width="304" height="150" src="/static/img/staffmeetings-blog.webp" title="Staff meeting blog post" alt="Staff meeting blog post" />
+                  </Link>
+                </div>
+                <div className="blog-info">
+                  <span className="meta">11/08/2023 - MEDIUM</span>
+                  <h5>
+                    <Link href="https://medium.com/better-programming/effective-staff-meetings-for-engineering-managers-of-managers-7cc8278d89ec">
+                    Effective Staff Meetings for Engineering Managers of Managers
+                    </Link>
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 m-15px-tb">
+              <div className="blog-grid">
+                <div className="blog-img">
+                  <Link href="https://medium.com/@sebarmeli/the-power-of-recognition-in-engineering-leaders-a-deep-dive-into-the-philosophy-and-practice-5b5f284413d9">
+                    <Image width="304" height="150" src="/static/img/recognition-blog.webp" title="Recognition blog post" alt="Recognition blog post" />
+                  </Link>
+                </div>
+                <div className="blog-info">
+                  <span className="meta">07/10/2023 - MEDIUM</span>
+                  <h5>
+                    <Link href="https://medium.com/@sebarmeli/the-power-of-recognition-in-engineering-leaders-a-deep-dive-into-the-philosophy-and-practice-5b5f284413d9">
+                    The Power of Recognition in Engineering Leaders: A Deep Dive into the Philosophy and Practice
+                    </Link>
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 m-15px-tb">
+              <div className="blog-grid">
+                <div className="blog-img">
+                  <Link href="https://medium.com/@sebarmeli/unlock-your-teams-full-potential-with-okrs-e07ddf23e726">
+                    <Image width="304" height="150" src="/static/img/okr-blog.webp" title="OKR blog post" alt="OKR blog post" />
+                  </Link>
+                </div>
+                <div className="blog-info">
+                  <span className="meta">02/21/2023 - MEDIUM</span>
+                  <h5>
+                    <Link href="https://medium.com/@sebarmeli/unlock-your-teams-full-potential-with-okrs-e07ddf23e726">
+                      Unlock Your Team’s Full Potential with OKRs!
+                    </Link>
+                  </h5>
+                </div>
+              </div>
+            </div>
+          {/* <div className="col-md-6 m-15px-tb">
             <div className="blog-grid">
               <div className="blog-img">
                 <Link href="https://medium.com/@sebarmeli/strategizing-for-success-in-software-engineering-ce79c993529d">
@@ -46,8 +97,8 @@ const Writing = () => {
                 </h5>
               </div>
             </div>
-          </div>
-          <div className="col-md-6 m-15px-tb">
+          </div> */}
+          {/* <div className="col-md-6 m-15px-tb">
             <div className="blog-grid">
               <div className="blog-img">
                 <Link href="https://medium.com/@sebarmeli/create-focus-during-a-distracting-time-1e6b6e23ca3a">
@@ -63,8 +114,8 @@ const Writing = () => {
                 </h5>
               </div>
             </div>
-          </div>
-          <div className="col-md-6 m-15px-tb">
+          </div> */}
+          {/* <div className="col-md-6 m-15px-tb">
             <div className="blog-grid">
               <div className="blog-img">
                 <Link href="https://medium.com/@sebarmeli/the-importance-of-a-strong-team-mission-statement-b5d4217fc4db">
@@ -80,7 +131,7 @@ const Writing = () => {
                 </h5>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="col-12 read-more-blog text-center">
             <Link href="https://medium.com/@sebarmeli" className="px-btn px-btn-theme">
               Medium

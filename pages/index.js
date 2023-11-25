@@ -43,7 +43,9 @@ const Index = () => {
                   <h1 className="font-alt">Sebastiano Armeli</h1>
                   <h2>Engineering Leader &amp; Mentor</h2><br/>
                   <p className="desc">
-                   I am an experienced engineering leader who has led multiple teams at big tech companies like Pinterest <FontAwesomeIcon icon={faPinterest} />, Paypal <FontAwesomeIcon icon={faPaypal} />, Snap <FontAwesomeIcon icon={faSnapchat} />, and Spotify <FontAwesomeIcon icon={faSpotify} />.
+                   I am an experienced engineering leader who is currently working as a Director of Engineering at <a target="_self" href="https://www.upwork.com/">Upwork</a>.  
+                   <br/>
+                   In the past, I have led multiple teams at big tech companies like Pinterest <FontAwesomeIcon icon={faPinterest} />, Paypal <FontAwesomeIcon icon={faPaypal} />, Snap <FontAwesomeIcon icon={faSnapchat} />, and Spotify <FontAwesomeIcon icon={faSpotify} />.
                   <br/><br/>
                    I enjoy mentoring <FontAwesomeIcon icon={faChalkboard} /> engineering managers and engineers looking to take their skills and careers to the next level. 
                   <br/><br/>
