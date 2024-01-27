@@ -26,7 +26,7 @@ const Startups = () => {
                         <Image width="251" height="54" src="/static/img/hustlefund-logo.webp" title="HustleFund logo" alt="HustleFund logo" />
                     </Link>
                 <br/><br/>
-                I made angel investments in companies such as <Link href="https://inpharmd.com/">InpharmD</Link>, <Link href="https://mecodiagnostics.com/">MeCo Diagnoatics</Link>, <Link href="https://investparker.com/">parker</Link>
+                I made angel investments in companies such as <Link href="https://inpharmd.com/">InpharmD</Link>, <Link href="https://mecodiagnostics.com/">MeCo Diagnoatics</Link>, <Link href="https://investparker.com/">parker</Link> and <Link href="https://www.enduesoftware.com/">Endue</Link>
                 <br/><br/>
                 I am interested in talking to founders working on startups in the HR, Health Tech, Consumer and Generative AI space
             </p>
