@@ -14,11 +14,14 @@
     "@fortawesome/free-regular-svg-icons": "^6.3.0",
     "@fortawesome/free-solid-svg-icons": "^6.3.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "next": "^13",
-    "node-sass": "^7",
+    "axios": "^1.6.7",
+    "express": "^4.18.2",
+    "next": "^14",
+    "node-sass": "^9.0.0",
     "react": "^18",
     "react-dom": "^18",
     "react-tsparticles": "^2",
+    "sharp": "^0.33.2",
     "tsparticles": "^2"
   },
   "devDependencies": {
