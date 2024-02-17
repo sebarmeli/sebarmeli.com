@@ -17,13 +17,12 @@ export default async function handler(req, res) {
       client_id: process.env.DEXCOM_CLIENT_ID,
       code,
       grant_type: 'authorization_code',
-      redirect_uri: process.env.REDIRECT_URI,
+      redirect_uri: process.env.FINAL_REDIRECT_URI,
     });
 
     const { access_token, refresh_token, expires_in } = response.data;
     // Store tokens and expiry in session or database
 
-    console.log(access_token);
 
     res.redirect(`${process.env.FINAL_REDIRECT_URI}?accessToken=${tokens.accessToken}&refreshToken=${tokens.refreshToken}`);
     // Call the get-tokens endpoint
