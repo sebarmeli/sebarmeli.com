@@ -8,7 +8,7 @@ import Mentoring from "../src/components/Mentoring";
 import ParticlesBackground from "../src/components/ParticlesBackground";
 import Layout from "../src/layout/Layout";
 
-import { faPinterest, faSpotify, faSnapchat, faPaypal, faMedium} from '@fortawesome/free-brands-svg-icons'
+import { faPinterest, faSpotify, faSnapchat, faPaypal, faEnvelope} from '@fortawesome/free-brands-svg-icons'
 import { faChalkboard, faPersonChalkboard, faPen } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -43,15 +43,15 @@ const Index = () => {
                   <h1 className="font-alt">Sebastiano Armeli</h1>
                   <h2>Engineering Leader &amp; Mentor</h2><br/>
                   <p className="desc">
-                   I am an experienced engineering leader who is currently working as a Director of Engineering at <a target="_self" href="https://www.upwork.com/">Upwork</a>.  
+                   I am an experienced engineering leader who is currently working as a Director of Engineering at <a target="_self" title="Upwork" href="https://www.upwork.com/">Upwork</a>.  
                    <br/>
                    In the past, I have led multiple teams at big tech companies like Pinterest <FontAwesomeIcon icon={faPinterest} />, Paypal <FontAwesomeIcon icon={faPaypal} />, Snap <FontAwesomeIcon icon={faSnapchat} />, and Spotify <FontAwesomeIcon icon={faSpotify} />.
                   <br/><br/>
-                   I enjoy mentoring <FontAwesomeIcon icon={faChalkboard} /> engineering managers and engineers looking to take their skills and careers to the next level. 
+                   I enjoy <a target="_self" title="Mentorcruise" href="https://mentorcruise.com/mentor/sebastianoarmeli/">mentoring</a> <FontAwesomeIcon icon={faChalkboard} /> engineering managers and engineers looking to take their skills and careers to the next level. 
                   <br/><br/>
-                   I also enjoy speaking <FontAwesomeIcon icon={faPersonChalkboard} /> at tech conferences and sometimes writing <FontAwesomeIcon icon={faPen} /> blog posts on Medium <FontAwesomeIcon icon={faMedium} />. 
+                   I also enjoy speaking <FontAwesomeIcon icon={faPersonChalkboard} /> at tech conferences and I write <FontAwesomeIcon icon={faPen} /> on a Substack <FontAwesomeIcon icon={faEnvelope} /> called  <a target="_self" title="Mentorcruise" href="https://sebarmeli.substack.com/">The Healthy Engineering Leader</a>. 
                   <br/><br/>
-                   In addition to my work with individuals, I enjoy chatting with startup founders (in the HR, Health Tech, Consumer and Generative AI space) and possibly advice them and/or angel invest.
+                   In addition to my work with individuals, I enjoy chatting with & advicing startup founders (in the HR, Health Tech and Consumer space) and doing some Angel investing.
                   </p>
                 </div>
               </div>

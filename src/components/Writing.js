@@ -12,12 +12,81 @@ const Writing = () => {
         <div className="title">
           <h3>Writing</h3>
         </div>
+
         <div className="row">
           <div className="col-md-6 m-15px-tb">
             <div className="blog-grid">
               <div className="blog-img">
+                <Link href="https://sebarmeli.substack.com/p/the-macros-for-healthy-engineering-cfc">
+                  <Image width="200" height="200" src="/static/img/macros2_post.webp" title="Macros - part 2" alt="Macros - part 2" />
+                </Link>
+              </div>
+              <div className="blog-info">
+                <span className="meta">4/02/2024 - SUBSTACK</span>
+                <h5>
+                  <Link href="https://sebarmeli.substack.com/p/the-macros-for-healthy-engineering-cfc">
+                  The &quot;Macros&quot; for healthy engineering teams - part 2: Proteins
+                  </Link>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 m-15px-tb">
+            <div className="blog-grid">
+              <div className="blog-img">
+                <Link href="https://sebarmeli.substack.com/p/the-macros-for-healthy-engineering">
+                  <Image width="200" height="200" src="/static/img/macros1_post.webp" title="Macros - part 2" alt="Macros - part 2" />
+                </Link>
+              </div>
+              <div className="blog-info">
+                <span className="meta">3/19/2024 - SUBSTACK</span>
+                <h5>
+                  <Link href="https://sebarmeli.substack.com/p/the-macros-for-healthy-engineering">
+                  The &quot;Macros&quot; for healthy engineering teams - part 1: Carbs
+                  </Link>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 m-15px-tb">
+            <div className="blog-grid">
+              <div className="blog-img">
+                <Link href="https://sebarmeli.substack.com/p/tips-on-staying-active-as-a-busy">
+                  <Image width="200" height="200" src="/static/img/active_post.webp" title="Staying active" alt="Staying active" />
+                </Link>
+              </div>
+              <div className="blog-info">
+                <span className="meta">3/05/2024 - SUBSTACK</span>
+                <h5>
+                  <Link href="https://sebarmeli.substack.com/p/tips-on-staying-active-as-a-busy">
+                  Tips on Staying Active as a Busy Engineering Leader
+                  </Link>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 m-15px-tb">
+            <div className="blog-grid">
+              <div className="blog-img">
+                <Link href="https://sebarmeli.substack.com/p/cgm-meets-ai-my-personal-health-tech-8a0">
+                  <Image width="200" height="200" src="/static/img/cgm_post.webp" title="CGM - part 2" alt="CGM - part 2" />
+                </Link>
+              </div>
+              <div className="blog-info">
+                <span className="meta">02/20/2024 - SUBSTACK</span>
+                <h5>
+                  <Link href="https://sebarmeli.substack.com/p/cgm-meets-ai-my-personal-health-tech-8a0">
+                  CGM Meets AI: My Personal Health Tech Experiment - part 2
+                  </Link>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 m-15px-tb">
+            <div className="blog-grid">
+              <div className="blog-img">
                 <Link href="https://sebarmeli.substack.com/p/the-importance-of-mentoring-in-engineering">
-                  <Image width="304" height="150" src="/static/img/mentoring2_post.webp" title="Mentoring 2 blog post" alt="Mentoring 2 blog post" />
+                  <Image width="200" height="130" src="/static/img/mentoring2_post.webp" title="Mentoring - part 2" alt="Mentoring - part 2" />
                 </Link>
               </div>
               <div className="blog-info">
@@ -34,7 +103,7 @@ const Writing = () => {
             <div className="blog-grid">
               <div className="blog-img">
                 <Link href="https://sebarmeli.substack.com/p/the-importance-of-mentoring-in-engineering-leadership-part-1-063736154a5f">
-                  <Image width="304" height="150" src="/static/img/mentoring1_post.webp" title="Mentoring 1 blog post" alt="Mentoring 1 blog post" />
+                  <Image width="200" height="130" src="/static/img/mentoring1_post.webp" title="Mentoring - part 1" alt="Mentoring - part 1" />
                 </Link>
               </div>
               <div className="blog-info">
@@ -49,7 +118,7 @@ const Writing = () => {
           </div>
           
 
-          <div className="col-md-6 m-15px-tb">
+          {/* <div className="col-md-6 m-15px-tb">
               <div className="blog-grid">
                 <div className="blog-img">
                   <Link href="https://medium.com/@sebarmeli/applying-socratic-wisdom-to-engineering-management-f134ab7ed747">
@@ -116,7 +185,7 @@ const Writing = () => {
                   </h5>
                 </div>
               </div>
-            </div>
+            </div> */}
           {/* <div className="col-md-6 m-15px-tb">
             <div className="blog-grid">
               <div className="blog-img">

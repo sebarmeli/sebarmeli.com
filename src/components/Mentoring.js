@@ -30,7 +30,8 @@ const Mentoring = () => {
               <div className="col-sm-9 col-md-9 col-xl-10">
                 <div className="rb-right">
                   <h5>MentorCruise</h5>
-                  <p>I offer mentoring sessions to engineers and engineering managers through the <a href="https://mentorcruise.com/mentor/sebastianoarmeli/" title= "Mentorcruise profile">Mentorcruise</a> platform.</p>
+                  <p>I offer mentoring sessions to engineers and engineering managers through the <a href="https://mentorcruise.com/mentor/sebastianoarmeli/" title= "Mentorcruise profile">Mentorcruise</a> platform.
+                  I did over 30 mentoring calls with average rating 5 /5.</p>
                 </div>
               </div>
             </div>

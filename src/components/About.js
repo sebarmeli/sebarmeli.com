@@ -27,7 +27,7 @@ const About = () => {
                   <br/><br/>
                   I enjoy <a href="https://mentorcruise.com/mentor/sebastianoarmeli/" title= "Mentorcruise profile">mentoring</a> engineering managers and engineers whether they are looking to develop their leadership skills, transition to management, or navigate complexities.
                   <br/><br/>
-                  I enjoy <a href="https://medium.com/@sebarmeli" title= "Medium profile">writing</a> and <a href="https://speakerdeck.com/sebarmelispeaking  " title= "Speakerdeck profile">speaking</a> about engineering management and leadership.
+                  I enjoy <a href="https://sebarmeli.substack.com/" title= "The Healthy Engineering Leader Substack">writing</a> and <a href="https://speakerdeck.com/sebarmelispeaking  " title= "Speakerdeck profile">speaking</a> about engineering management and leadership.
                   <br/><br/>
                   I like talking to startups about new ideas and possibly advise or invest in them.
                   <br/><br/>
