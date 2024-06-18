@@ -14,6 +14,40 @@ const Writing = () => {
         </div>
 
         <div className="row">
+        <div className="col-md-6 m-15px-tb">
+            <div className="blog-grid">
+              <div className="blog-img">
+                <Link href="https://sebarmeli.substack.com/p/vitamin-b-for-engineering-teams-psychological">
+                  <Image width="467" height="200" src="/static/img/vitaminB.webp" title="Vitamin B: Psychological Safety" alt="Vitamin B: Psychological Safety" />
+                </Link>
+              </div>
+              <div className="blog-info">
+                <span className="meta">4/06/2024 - SUBSTACK</span>
+                <h5>
+                  <Link href="https://sebarmeli.substack.com/p/vitamin-b-for-engineering-teams-psychological">
+                  Vitamin B for Engineering Teams: Psychological Safety
+                  </Link>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 m-15px-tb">
+            <div className="blog-grid">
+              <div className="blog-img">
+                <Link href="https://sebarmeli.substack.com/p/vitamin-a-for-engineering-teams-dogfooding">
+                  <Image width="399" height="200" src="/static/img/vitaminA.webp" title="Vitamin A: Dogfooding" alt="Vitamin A: Dogfooding" />
+                </Link>
+              </div>
+              <div className="blog-info">
+                <span className="meta">5/13/2024 - SUBSTACK</span>
+                <h5>
+                  <Link href="https://sebarmeli.substack.com/p/vitamin-a-for-engineering-teams-dogfooding">
+                  Vitamin A for engineering teams: Dogfooding your product
+                  </Link>
+                </h5>
+              </div>
+            </div>
+          </div>
           <div className="col-md-6 m-15px-tb">
             <div className="blog-grid">
               <div className="blog-img">
@@ -242,11 +276,11 @@ const Writing = () => {
               The Healthy Engineering Leader - Substack
             </Link>
           </div>
-          <div className="col-12 read-more-blog text-center">
+          {/* <div className="col-12 read-more-blog text-center">
             <Link href="https://medium.com/@sebarmeli" className="px-btn px-btn-theme">
               Medium
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

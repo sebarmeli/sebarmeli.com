@@ -13,11 +13,28 @@ const Speaking = () => {
           <h3>Speaking</h3>
         </div>
         <div className="row">
-        <div className="col-md-6 m-15px-tb">
+          <div className="col-md-6 m-15px-tb">
+            <div className="blog-grid">
+              <div className="blog-img">
+                <Link href="https://speakerdeck.com/sebarmeli/cultivate-excellence-in-engineering-teams-through-continuous-software-engineering">
+                  <Image width="192" height="240" src="/static/img/img_SD_talk.webp" title="DevOpsCon SD talk" alt="DevOpsCon SD talk" />
+                </Link>
+              </div>
+              <div className="blog-info">
+                <span className="meta">05/21/2024 - DevOpsCon San Diego </span>
+                <h5>
+                  <Link href="https://speakerdeck.com/sebarmeli/cultivate-excellence-in-engineering-teams-through-continuous-software-engineering">
+                      Cultivating Excellence in Engineering Teams through Continuous Software Engineering
+                  </Link>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 m-15px-tb">
             <div className="blog-grid">
               <div className="blog-img">
                 <Link href="https://speakerdeck.com/sebarmeli/from-strategy-definition-to-execution-with-okrs-and-roadmap">
-                  <Image width="422" height="240" src="/static/img/devopscon-talk.webp" title="DevOpsCon talk" alt="DevOpsCon talk" />
+                  <Image width="422" height="240" src="/static/img/devopscon-talk.webp" title="DevOpsCon NY talk" alt="DevOpsCon NY talk" />
                 </Link>
               </div>
               <div className="blog-info">
@@ -64,7 +81,7 @@ const Speaking = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6 m-15px-tb">
+          {/* <div className="col-md-6 m-15px-tb">
             <div className="blog-grid">
               <div className="blog-img">
               <Link href="https://www.youtube.com/watch?v=SQ7xzpOjA6o">
@@ -80,7 +97,7 @@ const Speaking = () => {
                 </h5>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* <div className="col-md-6 m-15px-tb">
             <div className="blog-grid">
               <div className="blog-img">
