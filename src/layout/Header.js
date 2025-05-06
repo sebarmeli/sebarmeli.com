@@ -54,12 +54,12 @@ const Header = ({ blog }) => {
               <span>Home</span>
             </a>
           </li>
-          <li data-menuanchor="about">
+          {/* <li data-menuanchor="about">
             <a className="nav-link" href="#about">
               <FontAwesomeIcon icon={faIdBadge} />
               <span>About Me</span>
             </a>
-          </li>
+          </li> */}
           <li data-menuanchor="mentoring">
             <a className="nav-link" href="#mentoring">
               <FontAwesomeIcon icon={faChalkboard} />

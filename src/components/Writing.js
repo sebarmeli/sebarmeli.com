@@ -17,15 +17,15 @@ const Writing = () => {
         <div className="col-md-6 m-15px-tb">
             <div className="blog-grid">
               <div className="blog-img">
-                <Link href="https://sebarmeli.substack.com/p/vitamin-b-for-engineering-teams-psychological">
-                  <Image width="467" height="200" src="/static/img/vitaminB.webp" title="Vitamin B: Psychological Safety" alt="Vitamin B: Psychological Safety" />
+                <Link href="https://leaddev.com/culture/build-psychological-safety-world-layoffs">
+                  <Image width="467" height="200" src="/static/img/leaddev_post.webp" title="LeadDev: Psychological Safety" alt="LeadDev: Psychological Safety" />
                 </Link>
               </div>
               <div className="blog-info">
-                <span className="meta">4/06/2024 - SUBSTACK</span>
+                <span className="meta">5/01/2025 - LEADEV</span>
                 <h5>
-                  <Link href="https://sebarmeli.substack.com/p/vitamin-b-for-engineering-teams-psychological">
-                  Vitamin B for Engineering Teams: Psychological Safety
+                  <Link href="https://leaddev.com/culture/build-psychological-safety-world-layoffs">
+                  Build Psychological Safety in a World of Layoffs
                   </Link>
                 </h5>
               </div>
@@ -34,15 +34,15 @@ const Writing = () => {
           <div className="col-md-6 m-15px-tb">
             <div className="blog-grid">
               <div className="blog-img">
-                <Link href="https://sebarmeli.substack.com/p/vitamin-a-for-engineering-teams-dogfooding">
-                  <Image width="399" height="200" src="/static/img/vitaminA.webp" title="Vitamin A: Dogfooding" alt="Vitamin A: Dogfooding" />
+                <Link href="https://sebarmeli.substack.com/p/vitamin-d-for-engineering-teams-visibility">
+                  <Image width="399" height="200" src="/static/img/vitaminD.webp" title="Vitamin D: Visibility" alt="Vitamin D: Visibility" />
                 </Link>
               </div>
               <div className="blog-info">
-                <span className="meta">5/13/2024 - SUBSTACK</span>
+                <span className="meta">4/24/2025 - SUBSTACK</span>
                 <h5>
-                  <Link href="https://sebarmeli.substack.com/p/vitamin-a-for-engineering-teams-dogfooding">
-                  Vitamin A for engineering teams: Dogfooding your product
+                  <Link href="https://sebarmeli.substack.com/p/vitamin-d-for-engineering-teams-visibility">
+                  Vitamin D for Engineering Teams: Visibility
                   </Link>
                 </h5>
               </div>
@@ -51,15 +51,15 @@ const Writing = () => {
           <div className="col-md-6 m-15px-tb">
             <div className="blog-grid">
               <div className="blog-img">
-                <Link href="https://sebarmeli.substack.com/p/the-macros-for-healthy-engineering-cfc">
-                  <Image width="200" height="200" src="/static/img/macros2_post.webp" title="Macros - part 2" alt="Macros - part 2" />
+                <Link href="https://sebarmeli.substack.com/p/continuous-software-engineering-part-bad">
+                  <Image width="200" height="200" src="/static/img/cse_4.webp" title="CSE - part 4" alt="CSE - part 4" />
                 </Link>
               </div>
               <div className="blog-info">
-                <span className="meta">4/02/2024 - SUBSTACK</span>
+                <span className="meta">12/14/2024 - SUBSTACK</span>
                 <h5>
-                  <Link href="https://sebarmeli.substack.com/p/the-macros-for-healthy-engineering-cfc">
-                  The &quot;Macros&quot; for healthy engineering teams - part 2: Proteins
+                  <Link href="https://sebarmeli.substack.com/p/continuous-software-engineering-part-bad">
+                  Continuous Software Engineering - part 4: Continuous Experimentation &amp; Measurement
                   </Link>
                 </h5>
               </div>

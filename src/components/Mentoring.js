@@ -14,7 +14,7 @@ const Mentoring = () => {
         </div>
         <div className="full-screen align-items-center">
             <p className="desc">
-                  I believe mentorship is key for self-improvement. Everyone should ask for help to mentors or coaches. I share my experience and thoughts with mentees on different platforms:
+                  I believe mentorship is key for self-improvement. Everyone should ask for help to mentors or coaches.
             </p>
         </div>
         <div className="resume-box">
@@ -31,12 +31,12 @@ const Mentoring = () => {
                 <div className="rb-right">
                   <h5>MentorCruise</h5>
                   <p>I offer mentoring sessions to engineers and engineering managers through the <a href="https://mentorcruise.com/mentor/sebastianoarmeli/" title= "Mentorcruise profile">Mentorcruise</a> platform.
-                  I did over 30 mentoring calls with average rating 5 / 5.</p>
+                  I did over 70 mentoring calls with average rating 5 / 5.</p>
                 </div>
               </div>
             </div>
           </div>
-          <div className="resume-row">
+          {/* <div className="resume-row">
             <div className="row">
               <div className="col-sm-3 col-md-3 col-xl-2">
                 <div className="rb-left">
@@ -52,7 +52,7 @@ const Mentoring = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import About from "../src/components/About";
+// import About from "../src/components/About";
 import Writing from "../src/components/Writing";
 import Speaking from "../src/components/Speaking";
 import Startups from "../src/components/Startups";
@@ -8,7 +8,7 @@ import Mentoring from "../src/components/Mentoring";
 import ParticlesBackground from "../src/components/ParticlesBackground";
 import Layout from "../src/layout/Layout";
 
-import { faPinterest, faSpotify, faSnapchat, faPaypal, faEnvelope} from '@fortawesome/free-brands-svg-icons'
+import { faPinterest, faSpotify, faSnapchat, faPaypal, faMeta, faEnvelope} from '@fortawesome/free-brands-svg-icons'
 import { faChalkboard, faPersonChalkboard, faPen } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -43,15 +43,19 @@ const Index = () => {
                   <h1 className="font-alt">Sebastiano Armeli</h1>
                   <h2>Engineering Leader &amp; Mentor</h2><br/>
                   <p className="desc">
-                   I am an experienced engineering leader who is currently working as a Director of Engineering at <a target="_self" title="Upwork" href="https://www.upwork.com/">Upwork</a>.  
-                   <br/>
-                   In the past, I have led multiple teams at big tech companies like Pinterest <FontAwesomeIcon icon={faPinterest} />, Paypal <FontAwesomeIcon icon={faPaypal} />, Snap <FontAwesomeIcon icon={faSnapchat} />, and Spotify <FontAwesomeIcon icon={faSpotify} />.
+                   I am an experienced engineering leader currently at <a target="_self" title="Meta" href="https://meta.com"> <b>Meta <FontAwesomeIcon icon={faMeta} /></b></a>.
+                   <br/><br/>
+                   I have previously served as a Director of Engineering at Upwork and held leadership roles at companie such as Pinterest <FontAwesomeIcon icon={faPinterest} />, Paypal <FontAwesomeIcon icon={faPaypal} />, Snap <FontAwesomeIcon icon={faSnapchat} />, and Spotify <FontAwesomeIcon icon={faSpotify} />.
                   <br/><br/>
-                   I enjoy <a target="_self" title="Mentorcruise" href="https://mentorcruise.com/mentor/sebastianoarmeli/">mentoring</a> <FontAwesomeIcon icon={faChalkboard} /> engineering managers and engineers looking to take their skills and careers to the next level. 
+                  I am passionate about building healthy engineering cultures, mentoring the next generation of leaders, and supporting teams through periods of growth and change.
                   <br/><br/>
-                   I also enjoy speaking <FontAwesomeIcon icon={faPersonChalkboard} /> at tech conferences and I write <FontAwesomeIcon icon={faPen} /> on a Substack <FontAwesomeIcon icon={faEnvelope} /> called  <a target="_self" title="Mentorcruise" href="https://sebarmeli.substack.com/">The Healthy Engineering Leader</a>. 
-                  <br/><br/>
-                   In addition to my work with individuals, I enjoy chatting with & advicing startup founders (in the HR, Health Tech and Consumer space) and doing some Angel investing.
+                  I <a target="_self" title="Mentorcruise" href="https://mentorcruise.com/mentor/sebastianoarmeli/">mentor</a> <FontAwesomeIcon icon={faChalkboard}/> engineering managers and senior engineers, enjoy speaking <FontAwesomeIcon icon={faPersonChalkboard} /> at conferences, 
+                  and share my perspectives on leadership in my Substack <FontAwesomeIcon icon={faEnvelope}/> , <a target="_self" title="The Healthy Engineering Leader" href="https://sebarmeli.substack.com/">The Healthy Engineering Leader</a>.
+                   <br/><br/>
+                    I like talking to startups about new ideas and possibly advise or invest in them.
+                    <br/><br/>
+                    I also serve on the Board of a community-owned grocery store, called <a href="https://coopportunity.com/#" title= "Co-opportunity Market">Co-opportunity Market</a>.
+                    <br/><br/>
                   </p>
                 </div>
               </div>
@@ -64,7 +68,7 @@ const Index = () => {
           </div>
         </div>
       </section>
-      <About />
+      {/* <About /> */}
       <Mentoring />
       <Writing />
       <Speaking />
