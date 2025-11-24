@@ -1,5 +1,4 @@
 export const activeSection = () => {
-  const path = window.location.pathname;
   let isNavigating = false;
 
   const updateActiveSection = () => {

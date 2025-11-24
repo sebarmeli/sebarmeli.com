@@ -49,7 +49,9 @@ export default [
     rules: {
       'react/react-in-jsx-scope': 'off', // Next.js doesn't require React import
       'react/prop-types': 'off',
-      'no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
+      'react/jsx-uses-react': 'off',
+      'react/jsx-uses-vars': 'error',
+      'no-unused-vars': ['warn', { argsIgnorePattern: '^_', varsIgnorePattern: '^_' }],
     },
     settings: {
       react: {

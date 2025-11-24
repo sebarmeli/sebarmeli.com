@@ -1,10 +1,9 @@
-//import { useCallback } from "react";
 import { useEffect, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadFull } from "tsparticles";
 
 const ParticlesBackground = () => {
-  const [init, setInit] = useState(false);
+  const [, setInit] = useState(false);
 
   // this should be run only once per application lifetime
   useEffect(() => {
@@ -21,7 +20,7 @@ const ParticlesBackground = () => {
     });
   }, []);
 
-  const particlesLoaded = (container) => {
+  const particlesLoaded = () => {
     // Removed console.log for performance
   };
   // const particlesInit = useCallback(async (engine) => {

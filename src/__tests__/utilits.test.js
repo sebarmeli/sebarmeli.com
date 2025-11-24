@@ -2,8 +2,6 @@ import { activeSection } from '../utilits';
 
 describe('activeSection', () => {
   let mockSections;
-  let mockNavItems;
-  let mockNavLinks;
 
   beforeEach(() => {
     // Reset DOM

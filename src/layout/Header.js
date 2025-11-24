@@ -1,19 +1,18 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Fragment, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { activeSection } from "../utilits";
-import { faChalkboard, faBuilding, faPersonChalkboard, faPen, faAddressBook, faHouse } from '@fortawesome/free-solid-svg-icons'
-import { faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-import { faIdBadge } from '@fortawesome/free-regular-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChalkboard, faBuilding, faPersonChalkboard, faPen, faAddressBook, faHouse } from '@fortawesome/free-solid-svg-icons';
+import { faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const Header = ({ blog }) => {
+const Header = () => {
   const [sideBarToggle, setSideBarToggle] = useState(false);
   useEffect(() => {
     activeSection();
   }, []);
   return (
-    <Fragment>
+    <>
       <div className="mob-header">
         <div className="d-flex">
           <div className="navbar-brand">
@@ -101,7 +100,7 @@ const Header = ({ blog }) => {
           </a>
         </div>
       </header>
-    </Fragment>
+    </>
   );
 };
 export default Header;

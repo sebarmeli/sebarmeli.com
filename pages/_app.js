@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Fragment, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Rubik, Playfair_Display } from "next/font/google";
 import PreLoader from "../src/layout/PreLoader";
 import { SpeedInsights } from "@vercel/speed-insights/next";
@@ -38,7 +38,7 @@ function MyApp({ Component, pageProps }) {
   }, []);
 
   return (
-    <Fragment>
+    <>
       <Head>
         <title>Sebastiano Armeli</title>
         <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
@@ -54,7 +54,7 @@ function MyApp({ Component, pageProps }) {
         <Component {...pageProps} />
         <SpeedInsights />
       </div>
-    </Fragment>
+    </>
   );
 }
 
