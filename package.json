@@ -7,7 +7,7 @@
     "build": "next build",
     "analyze": "ANALYZE=true next build",
     "start": "next start",
-    "sass": "node-sass --watch public/static/scss/style.scss public/assets/css/style.css --source-map public/static/css/style.css.map",
+    "sass": "sass --watch public/static/scss/style.scss:public/assets/css/style.css --source-map",
     "lint": "next lint"
   },
   "dependencies": {
@@ -20,9 +20,9 @@
     "axios": "^1.13.2",
     "express": "^4.21.2",
     "next": "^14.2.33",
-    "node-sass": "^9.0.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "sass": "^1.94.2",
     "sharp": "^0.34.5",
     "tsparticles": "^3.9.1"
   },
