@@ -18,20 +18,14 @@ module.exports = withBundleAnalyzer({
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
   },
 
-  // Production optimizations
-  swcMinify: true,
+  // Production optimizations (swcMinify and optimizeFonts are now default in Next.js 16)
   reactStrictMode: true,
+
+  // Disable dev indicators
+  devIndicators: false,
 
   // Compiler optimizations
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
-  },
-
-  // Optimize fonts
-  optimizeFonts: true,
-
-  // Fast Refresh (Hot Reloading) - enabled by default but explicitly configured
-  experimental: {
-    optimizeCss: true, // Enable CSS optimization
   },
 });

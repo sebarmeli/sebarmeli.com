@@ -80,3 +80,8 @@ iframe {
   width: 100px;
   height: 100px;
 }
+
+/* Hide Next.js Turbopack indicator in dev mode */
+#__next-build-watcher {
+  display: none !important;
+}

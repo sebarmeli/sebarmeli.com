@@ -1,13 +1,16 @@
 import { useState } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMoon, faSun } from "@fortawesome/free-solid-svg-icons";
 
 const DayNightMood = () => {
   const [night, setNight] = useState(true);
   const changeMood = () => {
     document.querySelector("body").classList.toggle("theme-light");
+    setNight(!night);
   };
   return (
     <label className="color_switch" onClick={() => changeMood()}>
-      <i className="fas fa-moon" />
+      <FontAwesomeIcon icon={night ? faMoon : faSun} />
     </label>
   );
 };
