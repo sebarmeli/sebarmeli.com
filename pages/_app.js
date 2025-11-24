@@ -4,8 +4,6 @@ import PreLoader from "../src/layout/PreLoader";
 import "../styles/glitch.css";
 import "../styles/globals.css";
 import "../public/static/plugin/bootstrap/css/bootstrap.min.css";
-import "../public/static/plugin/font-awesome/css/all.min.css";
-import "../public/static/plugin/et-line/style.css";
 import "../public/static/plugin/themify-icons/themify-icons.css";
 import "../public/static/css/style.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
