@@ -1,6 +1,8 @@
 import Head from "next/head";
 import { Fragment, useEffect, useState } from "react";
+import { Rubik, Playfair_Display } from "next/font/google";
 import PreLoader from "../src/layout/PreLoader";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "../styles/glitch.css";
 import "../styles/globals.css";
 import "../public/static/plugin/bootstrap/css/bootstrap.min.css";
@@ -8,7 +10,24 @@ import "../public/static/plugin/themify-icons/themify-icons.css";
 import "../public/static/css/style.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import { config } from "@fortawesome/fontawesome-svg-core";
-config.autoAddCss = false; 
+config.autoAddCss = false;
+
+// Configure Google Fonts with next/font
+const rubik = Rubik({
+  weight: ['300', '400', '500', '700', '900'],
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-rubik',
+});
+
+const playfair = Playfair_Display({
+  weight: ['400', '500', '600', '700', '800', '900'],
+  style: ['normal', 'italic'],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-playfair',
+}); 
 
 function MyApp({ Component, pageProps }) {
   const [load, setLoad] = useState(true);
@@ -29,13 +48,12 @@ function MyApp({ Component, pageProps }) {
         <meta name="keywords" content="Sebastiano Armeli, engineering manager, engineering leader, engineering leadership mentor, engineering coach, engineering speaker, engineering investor, startups, software engineering manager, software engineering leader"/>
         <meta property="og:title" content="Sebastiano Armeli Personal Website" />
         <meta property="og:description" content="Sebastiano Armeli Personal Website - Engineering leader and mentor"/>
-
-        {/* Preconnect to Google Fonts for better performance */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </Head>
-      {load && <PreLoader />}
-      <Component {...pageProps} />
+      <div className={`${rubik.variable} ${playfair.variable}`}>
+        {load && <PreLoader />}
+        <Component {...pageProps} />
+        <SpeedInsights />
+      </div>
     </Fragment>
   );
 }

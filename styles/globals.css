@@ -85,3 +85,13 @@ iframe {
 #__next-build-watcher {
   display: none !important;
 }
+
+/* Map Next.js font variables to existing font families */
+:root {
+  --font-rubik: 'Rubik', sans-serif;
+  --font-playfair: 'Playfair Display', serif;
+}
+
+body {
+  font-family: var(--font-rubik) !important;
+}
