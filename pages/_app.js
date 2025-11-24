@@ -29,6 +29,10 @@ function MyApp({ Component, pageProps }) {
         <meta name="keywords" content="Sebastiano Armeli, engineering manager, engineering leader, engineering leadership mentor, engineering coach, engineering speaker, engineering investor, startups, software engineering manager, software engineering leader"/>
         <meta property="og:title" content="Sebastiano Armeli Personal Website" />
         <meta property="og:description" content="Sebastiano Armeli Personal Website - Engineering leader and mentor"/>
+
+        {/* Preconnect to Google Fonts for better performance */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </Head>
       {load && <PreLoader />}
       <Component {...pageProps} />
