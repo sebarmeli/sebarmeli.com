@@ -9,7 +9,7 @@ import ParticlesBackground from "../src/components/ParticlesBackground";
 import Layout from "../src/layout/Layout";
 
 import { faPinterest, faSpotify, faSnapchat, faPaypal, faMeta } from '@fortawesome/free-brands-svg-icons'
-import { faChalkboard, faPersonChalkboard, faPen, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faChalkboard, faPersonChalkboard, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Index = () => {
