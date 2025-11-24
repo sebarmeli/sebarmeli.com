@@ -22,7 +22,7 @@ const ParticlesBackground = () => {
   }, []);
 
   const particlesLoaded = (container) => {
-    console.log(container);
+    // Removed console.log for performance
   };
   // const particlesInit = useCallback(async (engine) => {
   //   console.log(engine);
@@ -45,7 +45,7 @@ const ParticlesBackground = () => {
         fullScreen: {
           enable: false,
         },
-        fpsLimit: 1000,
+        fpsLimit: 120,
         interactivity: {
           events: {
             onClick: {
@@ -97,7 +97,7 @@ const ParticlesBackground = () => {
               enable: true,
               area: 1000,
             },
-            value: 50,
+            value: 80,
           },
           opacity: {
             value: 0.5,

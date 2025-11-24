@@ -8,8 +8,8 @@ import Mentoring from "../src/components/Mentoring";
 import ParticlesBackground from "../src/components/ParticlesBackground";
 import Layout from "../src/layout/Layout";
 
-import { faPinterest, faSpotify, faSnapchat, faPaypal, faMeta, faEnvelope} from '@fortawesome/free-brands-svg-icons'
-import { faChalkboard, faPersonChalkboard, faPen } from '@fortawesome/free-solid-svg-icons'
+import { faPinterest, faSpotify, faSnapchat, faPaypal, faMeta } from '@fortawesome/free-brands-svg-icons'
+import { faChalkboard, faPersonChalkboard, faPen, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Index = () => {
@@ -61,7 +61,15 @@ const Index = () => {
               </div>
               <div className="col-lg-6">
                 <div className="hb-img">
-                  <Image width="400" height="565" src="/static/img/about-my-talk.webp" title="Seb's talk" alt="Seb's talk" />
+                  <Image
+                    width="400"
+                    height="565"
+                    src="/static/img/about-my-talk.webp"
+                    title="Seb's talk"
+                    alt="Seb's talk"
+                    priority
+                    loading="eager"
+                  />
                 </div>
               </div>
             </div>

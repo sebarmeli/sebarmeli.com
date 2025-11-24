@@ -16,8 +16,42 @@ const Speaking = () => {
           <div className="col-md-6 m-15px-tb">
             <div className="blog-grid">
               <div className="blog-img">
+                <Link href="https://open.spotify.com/episode/6ewzfEu621Ou5dH8VHb4nT">
+                  <Image width="300" height="300" src="/static/img/better_tech_leadership.webp" title="Better Tech Leadership Podcast" alt="Better Tech Leadership Podcast" />
+                </Link>
+              </div>
+              <div className="blog-info">
+                <span className="meta">04/15/2025 - Better Tech Leadership Podcast</span>
+                <h5>
+                  <Link href="https://open.spotify.com/episode/6ewzfEu621Ou5dH8VHb4nT">
+                      Engineering Culture - The Balance Between Innovation and Execution
+                  </Link>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 m-15px-tb">
+            <div className="blog-grid">
+              <div className="blog-img">
+                <Link href="https://productsthatcount.com/upwork-director-of-engineering-on-navigating-remote-communication-challenges/">
+                  <Image width="300" height="295" src="/static/img/products_that_count_photo.webp" title="Products That Count Podcast" alt="Products That Count Podcast" />
+                </Link>
+              </div>
+              <div className="blog-info">
+                <span className="meta">07/26/2024 - Products That Count Podcast</span>
+                <h5>
+                  <Link href="https://productsthatcount.com/upwork-director-of-engineering-on-navigating-remote-communication-challenges/">
+                      Navigating Remote Communication Challenges
+                  </Link>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 m-15px-tb">
+            <div className="blog-grid">
+              <div className="blog-img">
                 <Link href="https://speakerdeck.com/sebarmeli/cultivate-excellence-in-engineering-teams-through-continuous-software-engineering">
-                  <Image width="192" height="240" src="/static/img/img_SD_talk.webp" title="DevOpsCon SD talk" alt="DevOpsCon SD talk" />
+                  <Image width="300" height="375" src="/static/img/img_SD_talk.webp" title="DevOpsCon SD talk" alt="DevOpsCon SD talk" />
                 </Link>
               </div>
               <div className="blog-info">
@@ -34,7 +68,7 @@ const Speaking = () => {
             <div className="blog-grid">
               <div className="blog-img">
                 <Link href="https://speakerdeck.com/sebarmeli/from-strategy-definition-to-execution-with-okrs-and-roadmap">
-                  <Image width="422" height="240" src="/static/img/devopscon-talk.webp" title="DevOpsCon NY talk" alt="DevOpsCon NY talk" />
+                  <Image width="300" height="170" src="/static/img/devopscon-talk.webp" title="DevOpsCon NY talk" alt="DevOpsCon NY talk" />
                 </Link>
               </div>
               <div className="blog-info">
@@ -51,7 +85,7 @@ const Speaking = () => {
             <div className="blog-grid">
               <div className="blog-img">
                 <Link href="https://conffab.com/video/from-mission-to-strategy-going-over-roadmap-and-okrs/">
-                  <Image width="422" height="240" src="/static/img/sydney-talk.webp" title="Sydney talk" alt="Sydney talk" />
+                  <Image width="300" height="170" src="/static/img/sydney-talk.webp" title="Sydney talk" alt="Sydney talk" />
                 </Link>
               </div>
               <div className="blog-info">
@@ -68,7 +102,7 @@ const Speaking = () => {
             <div className="blog-grid">
               <div className="blog-img">
               <Link href="https://www.youtube.com/watch?v=AkWHQ1-z9bU">
-                  <Image width="458" height="240" src="/static/img/talk-stretch-con.webp" title="Stretch conf talk" alt="Stretch conf talk" />
+                  <Image width="300" height="157" src="/static/img/talk-stretch-con.webp" title="Stretch conf talk" alt="Stretch conf talk" />
                 </Link>
               </div>
               <div className="blog-info">
