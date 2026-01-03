@@ -14,14 +14,14 @@ const Startups = () => {
         </div>
         <div className="full-screen align-items-center">
             <p className="desc">
-                I invest and provide advice for early-stage startups. 
-                <br/><br/> 
-                I adviced for a couple of years at  
+                I invest and provide advice for early-stage startups.
+                <br/><br/>
+                I adviced for a couple of years at
                   <Link href="https://www.unifai.us/">
                     <Image width="130" height="62" src="/static/img/unifai-logo.webp" title="Unifai logo" alt="Unifai logo" />
                   </Link>
-                <br/><br/> 
-                I am part of the Angel Squad at 
+                <br/><br/>
+                I am part of the Angel Squad at
                     <Link href="https://www.hustlefund.vc/">
                         <Image width="251" height="54" src="/static/img/hustlefund-logo.webp" title="HustleFund logo" alt="HustleFund logo" />
                     </Link>

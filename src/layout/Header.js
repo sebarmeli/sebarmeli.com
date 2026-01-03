@@ -77,12 +77,12 @@ const Header = () => {
               <span>Speaking</span>
             </a>
           </li>
-          <li data-menuanchor="startups">
+          {/* <li data-menuanchor="startups">
             <a className="nav-link" href="#startups">
               <FontAwesomeIcon icon={faBuilding} />
               <span>Startups</span>
             </a>
-          </li>
+          </li> */}
           <li data-menuanchor="contact">
             <a className="nav-link" href="#contact">
               <FontAwesomeIcon icon={faAddressBook} />

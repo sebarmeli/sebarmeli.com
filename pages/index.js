@@ -2,7 +2,7 @@ import Image from "next/image";
 // import About from "../src/components/About";
 import Writing from "../src/components/Writing";
 import Speaking from "../src/components/Speaking";
-import Startups from "../src/components/Startups";
+// import Startups from "../src/components/Startups";
 import Contact from "../src/components/Contact";
 import Mentoring from "../src/components/Mentoring";
 import ParticlesBackground from "../src/components/ParticlesBackground";
@@ -49,10 +49,10 @@ const Index = () => {
                   <br/><br/>
                   I am passionate about building healthy engineering cultures, mentoring the next generation of leaders, and supporting teams through periods of growth and change.
                   <br/><br/>
-                  I <a target="_self" title="Mentorcruise" href="https://mentorcruise.com/mentor/sebastianoarmeli/">mentor</a> <FontAwesomeIcon icon={faChalkboard}/> engineering managers and senior engineers, enjoy speaking <FontAwesomeIcon icon={faPersonChalkboard} /> at conferences, 
-                  and share my perspectives on leadership in my Substack <FontAwesomeIcon icon={faEnvelope}/> , <a target="_self" title="The Healthy Engineering Leader" href="https://sebarmeli.substack.com/">The Healthy Engineering Leader</a>.
-                   <br/><br/>
-                    I like talking to startups about new ideas and possibly advise or invest in them.
+                  {/* I <a target="_self" title="Mentorcruise" href="https://mentorcruise.com/mentor/sebastianoarmeli/">mentor</a> <FontAwesomeIcon icon={faChalkboard}/> engineering managers and senior engineers, enjoy speaking <FontAwesomeIcon icon={faPersonChalkboard} /> at conferences,  */}
+                  I share my perspectives on leadership in my Substack <FontAwesomeIcon icon={faEnvelope}/> , <a target="_self" title="The Healthy Engineering Leader" href="https://sebarmeli.substack.com/">The Healthy Engineering Leader</a>.
+                   {/* <br/><br/>
+                    I like talking to startups about new ideas and possibly advise or invest in them. */}
                     <br/><br/>
                     I also serve on the Board of a community-owned grocery store, called <a href="https://coopportunity.com/#" title= "Co-opportunity Market">Co-opportunity Market</a>.
                     <br/><br/>
@@ -80,7 +80,7 @@ const Index = () => {
       <Mentoring />
       <Writing />
       <Speaking />
-      <Startups />   
+      {/* <Startups /> */}
       <Contact />
     </Layout>
   );
