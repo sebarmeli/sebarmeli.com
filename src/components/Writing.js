@@ -18,7 +18,7 @@ const Writing = () => {
             <div className="blog-grid">
               <div className="blog-img">
                 <Link href="https://sebarmeli.substack.com/p/the-trap-of-instant-heroism-in-the">
-                  <Image width="400" height="220" src="/static/img/instant-heroism.webp" title="The Trap of Instant Heroism in the Era of AI" alt="The Trap of Instant Heroism in the Era of AI" />
+                  <Image width="400" height="220" src="/static/img/ai-heroism.webp" title="The Trap of Instant Heroism in the Era of AI" alt="The Trap of Instant Heroism in the Era of AI" />
                 </Link>
               </div>
               <div className="blog-info">

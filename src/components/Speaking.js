@@ -16,6 +16,23 @@ const Speaking = () => {
           <div className="col-md-6 m-15px-tb">
             <div className="blog-grid">
               <div className="blog-img">
+                <Link href="https://open.spotify.com/show/1wIytRQ4Ub8McXSP1iDwVX">
+                  <Image width="300" height="300" src="/static/img/elc-podcast.png" title="The Engineering Leadership Podcast" alt="The Engineering Leadership Podcast" />
+                </Link>
+              </div>
+              <div className="blog-info">
+                <span className="meta">2026 - The Engineering Leadership Podcast</span>
+                <h5>
+                  <Link href="https://open.spotify.com/show/1wIytRQ4Ub8McXSP1iDwVX">
+                      Leading Effectively Across Company Archetypes: Product, Business and Design-Led Leadership
+                  </Link>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 m-15px-tb">
+            <div className="blog-grid">
+              <div className="blog-img">
                 <Link href="https://open.spotify.com/episode/6ewzfEu621Ou5dH8VHb4nT">
                   <Image width="300" height="300" src="/static/img/better_tech_leadership.webp" title="Better Tech Leadership Podcast" alt="Better Tech Leadership Podcast" />
                 </Link>
