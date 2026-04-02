@@ -17,6 +17,40 @@ const Writing = () => {
         <div className="col-md-6 m-15px-tb">
             <div className="blog-grid">
               <div className="blog-img">
+                <Link href="https://sebarmeli.substack.com/p/the-trap-of-instant-heroism-in-the">
+                  <Image width="400" height="220" src="/static/img/instant-heroism.webp" title="The Trap of Instant Heroism in the Era of AI" alt="The Trap of Instant Heroism in the Era of AI" />
+                </Link>
+              </div>
+              <div className="blog-info">
+                <span className="meta">2/09/2026 - SUBSTACK</span>
+                <h5>
+                  <Link href="https://sebarmeli.substack.com/p/the-trap-of-instant-heroism-in-the">
+                  The Trap of Instant Heroism in the Era of AI
+                  </Link>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div className="col-md-6 m-15px-tb">
+            <div className="blog-grid">
+              <div className="blog-img">
+                <Link href="https://sebarmeli.substack.com/p/vitamin-r-for-engineering-leaders">
+                  <Image width="400" height="220" src="/static/img/vitaminR.webp" title="Vitamin R for Engineering Leaders: Recovery" alt="Vitamin R for Engineering Leaders: Recovery" />
+                </Link>
+              </div>
+              <div className="blog-info">
+                <span className="meta">1/20/2026 - SUBSTACK</span>
+                <h5>
+                  <Link href="https://sebarmeli.substack.com/p/vitamin-r-for-engineering-leaders">
+                  Vitamin R for Engineering Leaders: Recovery
+                  </Link>
+                </h5>
+              </div>
+            </div>
+          </div>
+        <div className="col-md-6 m-15px-tb">
+            <div className="blog-grid">
+              <div className="blog-img">
                 <Link href="https://sebarmeli.substack.com/p/regular-bloodwork-and-regular-team">
                   <Image width="400" height="220" src="/static/img/bloodwork.webp" title="Regular Bloodwork & Regular Team State of the Union Docs" alt="Regular Bloodwork & Regular Team State of the Union Docs" />
                 </Link>
